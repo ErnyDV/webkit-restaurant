@@ -1,0 +1,40 @@
+.container-header{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 67px;
+    width: 50%;
+    margin-top: 45px;
+
+    border-radius: 7px;
+    
+    font-size: 4.6rem;
+    font-weight: bold;
+    color: var(--DarkGrey);
+    background-color: var(--LightOrange);
+
+}
+
+.triangle {
+    width: 50px;
+    height: 10px;
+}
+
+.triangle-left{
+    position: absolute;
+}
+.triangle-right{
+    position: absolute;
+}
+
+.triangle-header {
+	width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-right: 50px solid #555;
+	border-bottom: 25px solid transparent;
+
+
+}

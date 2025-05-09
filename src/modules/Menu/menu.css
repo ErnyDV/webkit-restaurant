@@ -1,0 +1,136 @@
+.menu-container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+
+    height: 720px;
+    width: 664px;
+
+    background-color: var(--LightOrange);
+
+    padding: 8rem;
+}
+
+.top-left{
+    position: absolute;
+    top: -15px;
+    left: -35px;
+
+    width: 0; 
+    height: 0; 
+    border-left: 55px solid transparent;
+    border-right: 50px solid transparent;
+    
+    border-top: 55px solid var(--PastelRed);
+
+    transform: rotate(140deg);
+}
+
+
+.top-right{
+    position: absolute;
+    top: -15px;
+    right: -35px;
+
+    width: 0; 
+    height: 0; 
+    border-left: 55px solid transparent;
+    border-right: 50px solid transparent;
+    
+    border-top: 55px solid var(--PastelRed);
+
+    transform: rotate(-135deg);
+}
+
+
+.bottom-left{
+    position: absolute;
+    bottom: -15px;
+    left: -35px;
+
+    width: 0; 
+    height: 0; 
+    border-left: 55px solid transparent;
+    border-right: 50px solid transparent;
+    
+    border-top: 55px solid var(--PastelRed);
+
+    transform: rotate(45deg);
+}
+
+
+.bottom-right{
+    position: absolute;
+    bottom: -15px;
+    right: -35px;
+
+    width: 0; 
+    height: 0; 
+    border-left: 55px solid transparent;
+    border-right: 50px solid transparent;
+    
+    border-top: 55px solid var(--PastelRed);
+
+    transform: rotate(-45deg);
+}
+
+.item-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    width: 350px;
+}
+
+.menu-type-left,.menu-type-right{
+    position: absolute;
+    
+    font-size: 3.6rem;
+    text-transform: uppercase;
+
+    color: #fff;
+}
+
+.menu-type-left{
+    left: -10%;
+
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+}
+
+.menu-type-right{
+    bottom: 15%;
+    right: -10%;
+    
+    transform: scale(-1, 1);
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+}
+
+.title-container{
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.food-name{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.food-price{
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-left: auto;
+
+    color: #A44B30;
+}
+
+.food-desc{
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 1.4;
+    color: #634840;
+}
